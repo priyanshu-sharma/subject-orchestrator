@@ -6,7 +6,7 @@ class Schools(AutoTimestampedModel, UserTrackingModel):
     """
     Responsible for managing all the school related information
     """
-    id = models.BigIntegerField(primary=True)
+    id = models.BigIntegerField(primary_key=True)
     name = models.CharField(max_length=255)
     state = models.CharField(max_length=255)
     country = models.CharField(max_length=255)
