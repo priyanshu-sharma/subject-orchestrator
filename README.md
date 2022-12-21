@@ -37,7 +37,7 @@ Ref: sor.department.school_id - sor.school.id
 
 
 Table sor.courses {
-  id uuid
+  id bigint
   name varchar
   department_id bigint
   schedule json
@@ -56,7 +56,7 @@ Table sor.slot {
 }
 
 Table sor.courses_slot {
-  id bigint
+  id uuid
   courses_id bigint
   slot_id bigint
   active boolean
