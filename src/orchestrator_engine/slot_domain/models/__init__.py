@@ -1,0 +1,1 @@
+from slot_domain.models.slot import Slot
