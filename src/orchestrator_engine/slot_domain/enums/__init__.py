@@ -1,0 +1,1 @@
+from slot_domain.enums.slot_type import SlotType
