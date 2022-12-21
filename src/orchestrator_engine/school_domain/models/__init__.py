@@ -1,0 +1,1 @@
+from school_domain.models.schools import Schools
