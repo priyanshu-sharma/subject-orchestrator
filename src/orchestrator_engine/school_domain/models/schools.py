@@ -20,7 +20,7 @@ class Schools(AutoTimestampedModel, UserTrackingModel):
         app_label = 'school_domain'
         unique_together = [('name'), ('college_name')]
         indexes = [
-            models.Index(fields=['id', 'name', 'college_name'])
+            models.Index(fields=['name', 'college_name'])
         ]
 
     @staticmethod
