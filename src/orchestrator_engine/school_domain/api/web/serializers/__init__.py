@@ -1,2 +1,3 @@
 from school_domain.api.web.serializers.school_detail_serializer import SchoolDetailSerializer
-from school_domain.api.web.serializers.department_filter_serializer import DepartmentDetailSerializer
+from school_domain.api.web.serializers.department_detail_serializer import DepartmentDetailSerializer
+from school_domain.api.web.serializers.courses_detail_serializer import CoursesDetailSerializer

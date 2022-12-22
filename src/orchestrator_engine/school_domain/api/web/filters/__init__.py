@@ -1,2 +1,3 @@
 from school_domain.api.web.filters.schools_detail_filter import SchoolDetailFilter
 from school_domain.api.web.filters.department_detail_filter import DepartmentDetailFilter
+from school_domain.api.web.filters.courses_detail_filter import CoursesDetailFilter
