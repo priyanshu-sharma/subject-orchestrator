@@ -1,0 +1,1 @@
+from school_domain.api.web.filters.schools_detail_filter import SchoolDetailFilter

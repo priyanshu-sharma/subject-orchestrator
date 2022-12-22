@@ -17,11 +17,14 @@ from django.contrib import admin
 from django.urls import path, re_path
 from rest_framework_swagger.views import get_swagger_view
 from server_config import health_check_view
+from school_domain.api.web import urls as school_domain_urls
+from django.conf.urls import include
 
 schema_view = get_swagger_view(title='Orchestrator Engine API')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path('^docs$', schema_view),
-    re_path('^health_check$', health_check_view)
+    re_path('^health_check$', health_check_view),
+    re_path("^api/school_domain/v1/", include((school_domain_urls, 'school_domain'), namespace='v1_school_domain')),
 ]
