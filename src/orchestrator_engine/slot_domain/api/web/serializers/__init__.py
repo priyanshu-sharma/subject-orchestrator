@@ -1,0 +1,1 @@
+from slot_domain.api.web.serializers.slot_detail_serializer import SlotDetailSerializer

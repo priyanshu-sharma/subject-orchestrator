@@ -1,0 +1,1 @@
+from slot_domain.api.web.filters.slot_detail_filter import SlotDetailFilter
