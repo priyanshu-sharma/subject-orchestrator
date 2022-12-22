@@ -1,1 +1,2 @@
 from slot_domain.api.web.filters.slot_detail_filter import SlotDetailFilter
+from slot_domain.api.web.filters.courses_slot_detail_filter import CoursesSlotDetailFilter

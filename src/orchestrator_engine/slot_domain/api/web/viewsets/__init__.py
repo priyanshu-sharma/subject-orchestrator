@@ -1,1 +1,2 @@
 from slot_domain.api.web.viewsets.slot_detail_viewset import SlotDetailViewSet
+from slot_domain.api.web.viewsets.courses_slot_viewset import CoursesSlotDetailViewSet
