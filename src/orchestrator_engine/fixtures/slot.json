@@ -1,0 +1,51 @@
+[{
+    "model": "slot_domain.slot",
+    "pk": 1,
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "start_time": "2022-01-01 00:00:00",
+        "end_time": "2022-03-30 00:00:00",
+        "type": "WINTER"
+    }
+}, {
+    "model": "slot_domain.slot",
+    "pk": 2,
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "start_time": "2022-10-01 00:00:00",
+        "end_time": "2022-12-30 00:00:00",
+        "type": "FALL"
+    }
+},{
+    "model": "slot_domain.slot",
+    "pk": 3,
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "start_time": "2022-04-01 00:00:00",
+        "end_time": "2022-06-30 00:00:00",
+        "type": "SPRING"
+    }
+}, {
+    "model": "slot_domain.slot",
+    "pk": 4,
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "start_time": "2022-01-01 00:00:00",
+        "end_time": "2022-06-30 00:00:00",
+        "type": "WINTER"
+    }
+}, {
+    "model": "slot_domain.slot",
+    "pk": 5,
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "start_time": "2022-07-01 00:00:00",
+        "end_time": "2022-12-30 00:00:00",
+        "type": "FALL"
+    }
+}]

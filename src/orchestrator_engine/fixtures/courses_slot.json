@@ -1,0 +1,73 @@
+[{
+    "model": "slot_domain.courses_slot",
+    "pk": "6ef610d1-8874-416e-a817-6208f36ac103",
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "courses": 1,
+        "slot": 1,
+        "planned_capacity": 120,
+        "actual_capacity": 0,
+        "active": true
+    }
+}, {
+    "model": "slot_domain.courses_slot",
+    "pk": "6ef610d1-8874-416e-a817-6208f36ac104",
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "courses": 1,
+        "slot": 2,
+        "planned_capacity": 80,
+        "actual_capacity": 10,
+        "active": true    
+    }
+},{
+    "model": "slot_domain.courses_slot",
+    "pk": "6ef610d1-8874-416e-a817-6208f36ac105",
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "courses": 2,
+        "slot": 4,
+        "planned_capacity": 60,
+        "actual_capacity": 0,
+        "active": false
+    }
+}, {
+    "model": "slot_domain.courses_slot",
+    "pk": "6ef610d1-8874-416e-a817-6208f36ac106",
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "courses": 2,
+        "slot": 5,
+        "planned_capacity": 60,
+        "actual_capacity": 0,
+        "active": false
+    }
+}, {
+    "model": "slot_domain.courses_slot",
+    "pk": "6ef610d1-8874-416e-a817-6208f36ac107",
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "courses": 3,
+        "slot": 3,
+        "planned_capacity": 220,
+        "actual_capacity": 0,
+        "active": false    
+    }
+}, {
+    "model": "slot_domain.courses_slot",
+    "pk": "6ef610d1-8874-416e-a817-6208f36ac108",
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "courses": 4,
+        "slot": 4,
+        "planned_capacity": 180,
+        "actual_capacity": 54,
+        "active": true    
+    }
+}]
