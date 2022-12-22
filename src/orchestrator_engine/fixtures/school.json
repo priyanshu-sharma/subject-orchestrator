@@ -1,0 +1,30 @@
+[{
+    "model": "school_domain.schools",
+    "pk": 1,
+    "fields": {
+        "install_ts": "2022-12-21 01:11:00",
+        "update_ts": "2022-12-21 01:11:00",
+        "name": "Marlan and Rosemary Bourns College of Engineering",
+        "state": "California",
+        "country": "USA",
+        "college_name": "University of California, Riverside",
+        "type": "PUBLIC",
+        "meta": {},
+        "active": "True"
+    }
+
+}, {
+    "model": "school_domain.schools",
+    "pk": 2,
+    "fields": {
+        "install_ts": "2022-12-21 01:12:00",
+        "update_ts": "2022-12-21 01:12:00",
+        "name": "Viterbi School of Engineering",
+        "state": "California",
+        "country": "USA",
+        "college_name": "University of Southern California",
+        "type": "PRIVATE",
+        "meta": {},
+        "active": "False"
+    }
+}]

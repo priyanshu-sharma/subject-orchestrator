@@ -1,0 +1,24 @@
+[{
+    "model": "school_domain.department",
+    "pk": 1,
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "name": "UCR - CSE",
+        "school": 1,
+        "meta": {},
+        "active": "True"
+    }
+
+}, {
+    "model": "school_domain.department",
+    "pk": 2,
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "name": "USC - CSE",
+        "school": 2,
+        "meta": {},
+        "active": "False"
+    }
+}]

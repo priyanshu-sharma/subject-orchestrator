@@ -1,0 +1,55 @@
+[{
+    "model": "school_domain.courses",
+    "pk": 1,
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "name": "Data Structure And Algorithms",
+        "code": "CSE120",
+        "department": 1,
+        "schedule": {"semester_schedule": [{"start": 1, "end": 3}, {"start": 10, "end": 12}]},
+        "meta": {},
+        "active": "True"
+    }
+
+}, {
+    "model": "school_domain.courses",
+    "pk": 2,
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "name": "Computer Architecture",
+        "code": "CSE124",
+        "department": 2,
+        "schedule": {"semester_schedule": [{"start": 1, "end": 6}, {"start": 7, "end": 12}]},
+        "meta": {},
+        "active": "False"
+    }
+},{
+    "model": "school_domain.courses",
+    "pk": 3,
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "name": "Computational Biology",
+        "code": "CSE234",
+        "department": 1,
+        "schedule": {"semester_schedule": [{"start": 4, "end": 6}]},
+        "meta": {},
+        "active": "False"
+    }
+
+}, {
+    "model": "school_domain.courses",
+    "pk": 4,
+    "fields": {
+        "install_ts": "2022-12-21 01:14:00",
+        "update_ts": "2022-12-21 01:14:00",
+        "name": "Machine Learning",
+        "code": "CSE314",
+        "department": 2,
+        "schedule": {"semester_schedule": [{"start": 1, "end": 6}]},
+        "meta": {},
+        "active": "True"
+    }
+}]
