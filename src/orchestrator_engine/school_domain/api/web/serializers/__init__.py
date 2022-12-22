@@ -1,0 +1,1 @@
+from school_domain.api.web.serializers.school_detail_serializer import SchoolDetailSerializer
