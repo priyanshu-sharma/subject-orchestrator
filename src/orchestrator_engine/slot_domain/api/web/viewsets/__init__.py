@@ -1,0 +1,1 @@
+from slot_domain.api.web.viewsets.slot_detail_viewset import SlotDetailViewSet
