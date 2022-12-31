@@ -11,7 +11,7 @@ class SchoolDetailViewSet(viewsets.ModelViewSet):
     queryset = Schools.objects.filter(active=True)
     serializer_class = SchoolDetailSerializer
     filter_backends = (filters.DjangoFilterBackend, OrderingFilter)
-    filter_class = SchoolDetailFilter
+    filterset_class = SchoolDetailFilter
     ordering_fields = ('id',)
     ordering = ('id',)
     pagination_class = StandardPagination

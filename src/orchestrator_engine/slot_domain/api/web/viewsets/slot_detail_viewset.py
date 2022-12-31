@@ -11,7 +11,7 @@ class SlotDetailViewSet(viewsets.ModelViewSet):
     queryset = Slot.objects.all()
     serializer_class = SlotDetailSerializer
     filter_backends = (filters.DjangoFilterBackend, OrderingFilter)
-    filter_class = SlotDetailFilter
+    filterset_class = SlotDetailFilter
     ordering_fields = ('id',)
     ordering = ('id',)
     pagination_class = StandardPagination

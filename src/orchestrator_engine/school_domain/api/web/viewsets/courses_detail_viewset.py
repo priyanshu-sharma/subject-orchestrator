@@ -11,7 +11,7 @@ class CoursesDetailViewSet(viewsets.ModelViewSet):
     queryset = Courses.objects.filter(active=True)
     serializer_class = CoursesDetailSerializer
     filter_backends = (filters.DjangoFilterBackend, OrderingFilter)
-    filter_class = CoursesDetailFilter
+    filterset_class = CoursesDetailFilter
     ordering_fields = ('id',)
     ordering = ('id',)
     pagination_class = StandardPagination
