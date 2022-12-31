@@ -11,7 +11,7 @@ class DepartmentDetailViewSet(viewsets.ModelViewSet):
     queryset = Department.objects.filter(active=True)
     serializer_class = DepartmentDetailSerializer
     filter_backends = (filters.DjangoFilterBackend, OrderingFilter)
-    filter_class = DepartmentDetailFilter
+    filterset_class = DepartmentDetailFilter
     ordering_fields = ('id',)
     ordering = ('id',)
     pagination_class = StandardPagination
