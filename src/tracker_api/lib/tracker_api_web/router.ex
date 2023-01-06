@@ -7,6 +7,7 @@ defmodule TrackerAPIWeb.Router do
 
   scope "/api", TrackerAPIWeb do
     pipe_through :api
+    get "/health_check", HealthCheckController, :show
   end
 
   # Enables LiveDashboard only for development
